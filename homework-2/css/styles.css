@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+    /* font-family: 'Ubuntu', sans-serif; */
+    font-size: 14px;
+    color: rgb(98, 98, 98);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.header {
+    margin-top: 76px;
+    margin-left: 300px;
+    margin-bottom: 103px;
+}
+
+.menu {
+    font-size: 0;
+}
+
+.menu_item {
+    display: inline-block;
+}
+
+.menu_item:not(:last-child) {
+    margin-right: 100px;
+}
+
+.menu_item_link {
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 1.714;
+    text-align: center;
+    color: rgb(98, 98, 98);
+}
+
+.menu_item_link:hover {
+    color: rgba(0, 195, 255, 0.856);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.menu_item_link1 {
+    color: rgba(0, 195, 255, 0.856);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.lifestyle_container {
+    font-size: 0px;
+}
+
+.lifestyle_box {
+    margin-bottom: 130px;
+    display: inline-block;
+    max-width: 50%;
+    font-size: 14px;
+    /* border:1px solid red */
+}
+
+.container_img {
+    margin-bottom: 30px;
+}
+
+.img_title {
+    margin-bottom: 32px;
+     font-family: 'Ubuntu', sans-serif;
+     color: rgb(180,173,158);
+     text-transform: uppercase;
+     line-height: 1.2;
+     font-weight: 300px;
+}
+
+.title {
+    font-size: 30px;
+    line-height: 1.2;
+    margin-bottom: 36px;
+}
+
+.content {
+    line-height: 1.714;
+}
+
+.left {
+    padding-right: 30px;
+}
+
+.right {
+    padding-left: 30px;
+}
+
+.btn {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: -60px;
+    margin-bottom: 69px;
+    
+
+}
+
+.load-more {
+   
+    font-size: 20px;
+    font-family: "Playfair Display", serif;
+    color: rgb(98, 98, 98);
+    line-height: 1.714;
+    width: 170px;
+    height: 60px;
+    border-width: 2px;
+    border-color: rgb(98, 98, 98);
+    border-style: solid;
+    background-color: #fff;
+    cursor: pointer;  
+}
+
+/* font-size: 20px;
+    font-family: "Playfair Display", serif;
+    color: rgb(75, 72, 72);
+    line-height: 58px;
+    border:1px solid rgb(59, 59, 59);
+    width: 170px;
+    height: 60px;
+    cursor: z; */
