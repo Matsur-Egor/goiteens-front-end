@@ -152,7 +152,7 @@ a{
 
 .up-title {
     font-size: 22px;
-    font-family: 'Kaushan Script',sans-serif;
+    font-family: 'Kaushan Script' ,sans-serif;
     font-style: normal;
     font-weight: bold;
     color: rgb(51, 51, 51);
@@ -176,7 +176,6 @@ a{
     background-color:#f38181;
     width: 60px;
     height: 3px;
-    /* margin-left: 935px; */
     margin: 0 auto;
     margin-top: 40px;
 }
@@ -195,19 +194,8 @@ a{
 .offer-list {
     width: 392px;
     background-color: #fff;
-    /* margin-right: 4px;
-    margin-left: 4px; */
-    
 }
 
-/* .offer-list::before {
-    content: "";
-    display: block;
-    height: 32px;
-    width: 32px;
-    margin-right: 20px;
-    background: #ffffff url(../images/icons/image.png) 
-} */
 
 .title-text {
     margin-left: 98px;
