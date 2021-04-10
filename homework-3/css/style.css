@@ -506,6 +506,15 @@ a{
     color: rgb(255, 255, 255);
     font-weight: bold;
     line-height: 1.2;
+    outline: none;
+}
+
+.button:hover{
+    border-color:rgb(149, 225, 211);
+    box-shadow: 3px 3px 10px 0px rgb(182, 175, 150);
+    -webkit-box-shadow: 3px 3px 10px 0px rgb(182, 175, 150);
+    -moz-box-shadow: 3px 3px 10px 0px rgb(182, 175, 150);
+    transition: .5s;
 }
 
 .text-yer {
